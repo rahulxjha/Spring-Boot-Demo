@@ -22,4 +22,15 @@ public class FunRestController {
     public String getDailyFortune(){
         return "Today is your lucky day";
     }
+
+    @GetMapping("/motivation")
+    public String getDailyMotivation(){
+        return "Always remember why have you started!";
+    }
+
+    @GetMapping("/task")
+    public String getDailyTask(){
+        return "You have to buy vegetables.";
+    }
+    
 }
